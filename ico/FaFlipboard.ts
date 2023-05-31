@@ -3,3 +3,4 @@ import { GenIcon, type IconBaseProps } from "https://deno.land/x/react_icons@1.0
 export function FaFlipboard(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M0 32v448h448V32H0zm358.4 179.2h-89.6v89.6h-89.6v89.6H89.6V121.6h268.8v89.6z"}}]})(props);
 }
+export default FaFlipboard;
