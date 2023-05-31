@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { Fa500Px } from "https://deno.land/x/react_icons_fa@1.0.1/mod.ts"`
+```ts
+import { Fa500Px } from "https://deno.land/x/react_icons_fa@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { Fa500Px } from "react-icons/fa"`
+```ts
+import { Fa500Px } from "react-icons/fa"
+```
 
 ## minimal import
 
-`import { Fa500Px } from "react-icons/fa/Fa500Px.ts"`
+```ts
+import { Fa500Px } from "react-icons/fa/Fa500Px.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import Fa500Px from "react-icons/fa/Fa500Px.ts"`
+```ts
+import Fa500Px from "react-icons/fa/Fa500Px.ts"
+```
 
