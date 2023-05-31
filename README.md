@@ -4,7 +4,7 @@
 
 **Project** [https://fontawesome.com/](https://fontawesome.com/)
 
-[See available icons here](https://react-icons.github.io/react-icons/icons?name=fa)
+[See available icons here](https://react-icons.deno.dev/fa)
 
 ## import_map.json
 
@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fa":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.7/mod.ts",
-    "react-icons/fa/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.7/ico/",
+    "react-icons/fa":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.8/mod.ts",
+    "react-icons/fa/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.8/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib fa
 
 ```ts
-import { Fa500Px } from "https://deno.land/x/react_icons_fa@1.0.7/mod.ts"
+import { Fa500Px } from "https://deno.land/x/react_icons_fa@1.0.8/mod.ts"
 ```
 
 ## import_map import an icon from all icons
