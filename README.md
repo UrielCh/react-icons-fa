@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fa":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.6/mod.ts",
-    "react-icons/fa/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.6/ico/",
+    "react-icons/fa":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.7/mod.ts",
+    "react-icons/fa/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib fa
 
 ```ts
-import { Fa500Px } from "https://deno.land/x/react_icons_fa@1.0.6/mod.ts"
+import { Fa500Px } from "https://deno.land/x/react_icons_fa@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { Fa500Px } from "react-icons/fa"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { Fa500Px } from "react-icons/fa/Fa500Px.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import Fa500Px from "react-icons/fa/Fa500Px.ts"
