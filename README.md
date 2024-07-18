@@ -42,5 +42,5 @@ import { Fa500Px } from "react-icons/fa/Fa500Px"
 or using default export
 
 ```ts
-import Fa500Px from "react-icons/fa/Fa500Px.ts"
+import Fa500Px from "react-icons/fa/Fa500Px"
 ```
