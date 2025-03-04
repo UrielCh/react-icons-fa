@@ -1,6 +1,7 @@
 {
   "lock": false,
   "name": "@preact-icons/fa",
+  "license": "CC BY 4.0 License",
   "version": "1.0.12",
   "exports": {
     ".": "./mod.ts",
